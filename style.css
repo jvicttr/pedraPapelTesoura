@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%23000000' fill-opacity='0.04'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.enemy-options img {
+    text-align: center;
+    max-width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options img {
+    text-align: center;
+    max-width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options,
+.enemy-options {
+    width: 45%;
+}
+
+.align {
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.playAgain {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 0.1ch;
+    padding: 10px;
+    background-color: rgb(23, 176, 23);
+    color: white;
+}
+
+.playAgain:active {
+    font-size: 22px;
+    padding: 12px;
+    background-color: rgb(22, 225, 22);
+}
+
+@media screen and (max-width: 1000px) {
+    body h1 {
+        padding: 30px;
+    }
+
+    .align {
+        padding: 30px;
+    }
+}
